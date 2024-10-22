@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDF6EC;
+    color: #333;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #E2AA87;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #E2AA87;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.calendar-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.fc-event, .fc-event-dot {
+    background-color: #E2AA87 !important; 
+    border-color: #E2AA87 !important; 
+    color: white !important; 
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #E2AA87; 
+}
+
+.fc-toolbar-title {
+    color: #E2AA87; 
+}
+
+.fc-daygrid-day-number, .fc-daygrid-day {
+    color: #D8947B; 
+}
+
+.fc .fc-col-header-cell-cushion {
+    color: #E2AA87; 
+}
+
+.fc .fc-button-primary {
+    background-color: #E2AA87; 
+    border-color: #E2AA87; 
+}
+
+.fc .fc-button-primary:hover {
+    background-color: #D8947B; 
+}
+
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #E2AA87;
+    color: #fff;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #E2AA87;
+    border-color: #E2AA87;
+}
+
+.btn-primary:hover {
+    background-color: #D8947B;
+    border-color: #D8947B;
+}
+
+.btn-danger {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+}
+
+.btn-danger:hover {
+    background-color: #b71c1c;
+    border-color: #b71c1c;
+}
+
+.reminders-alerts-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#reminders-alerts-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#reminders-alerts-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+footer h5 {
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #D8947B;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #D8947B;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+}
